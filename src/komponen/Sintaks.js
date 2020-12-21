@@ -5,7 +5,7 @@ const Sintaks = () => {
             <div className="w3-content">
                 <h3>Sintaks Penggunaan CSS</h3>
                 <p>Aturan penulisan CSS terdiri dari selektor dan blok deklarasi</p>
-                <img src="https://www.w3schools.com/css/selector.gif" alt="" className="src"/>
+                <img src="https://www.w3schools.com/css/selector.gif" alt="" className="src" style={{width:"100%"}}/>
                 <ul>
                     <li>Selektor menunjuk ke elemen HTML yang diberi style</li>
                     <li>Blok deklarasi dapat berisi lebih dari 1 style dengan pemisah semicolon (titik koma)</li>
