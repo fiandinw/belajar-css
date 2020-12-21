@@ -1,3 +1,9 @@
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Banner from './komponen/Banner';
 import Navbar from './komponen/Navbar';
 import Pengenalan from './komponen/Pengenalan';
@@ -9,12 +15,26 @@ import './w3.css';
 function App() {
   return (
     <>
+    <Router>
     <Navbar />
-    <Banner />
-    <Pengenalan />
-    <Sintaks />
-    <Textstyle />
-    <Playground />
+      <Switch>
+        <Route exact path="/">
+          <Banner />
+        </Route>
+        <Route path="/pengenalan">
+          <Pengenalan />
+        </Route>
+        <Route path="/sintaks">
+          <Sintaks />
+        </Route>
+        <Route path="/textstyle">
+          <Textstyle />
+        </Route>
+        <Route path="/gridlayout">
+          <Playground />
+        </Route>
+    </Switch>
+    </Router>
     </>
   );
 }
