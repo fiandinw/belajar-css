@@ -12,6 +12,10 @@ const Sintaks = () => {
                     <li>Setiap deklarasi yang menyatakan nilai dari style (value) dipisahkan dengan color (titik dua)</li>
                     <li>Blok deklarasi dikelilingi dengan curl bracket (kurung kurawal)</li>
                 </ul>
+                <h3>Video rekomendasi dari The Net Ninja</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/1CqHws4WZ-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Video rekomendasi dari Web Dev Simplified</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/1PnVor36_40" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
      );
