@@ -31,7 +31,7 @@ const Pengenalan = () => {
             </div>
         </div>
 
-        <div className="w3-row-padding w3-dark-grey w3-padding-64 w3-container">
+        <div className="w3-row-padding w3-light-blue w3-padding-64 w3-container">
             <div className="w3-content">
             <h3>External CSS</h3>
             <iframe height="265" style={{width: "100%"}} scrolling="no" title="css external" src="https://codepen.io/fiandinw/embed/NWRpRoz?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">

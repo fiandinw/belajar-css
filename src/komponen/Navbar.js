@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
     <div className="w3-top">
-    <div className="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+    <div className="w3-bar w3-blue w3-card w3-left-align w3-large">
     <a className="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" onClick={myFunction} title="Toggle Navigation Menu">Menu</a>
     <Link to="/" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</Link>
     <Link to="/pengenalan" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pengenalan</Link>
