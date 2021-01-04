@@ -1,7 +1,7 @@
 import React from 'react';
 const Textstyle = () => {
     return ( 
-        <div id="textstyle" class="w3-row-padding w3-blue-grey w3-padding-64 w3-container">
+        <div id="textstyle" class="w3-row-padding w3-light-blue w3-padding-64 w3-container">
             <div class="w3-content">
                 <h2>Text Style CSS</h2>
                 <p>Gunakan playground dibawah untuk mencoba implementasi CSS pada text</p>
