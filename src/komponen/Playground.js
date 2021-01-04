@@ -15,7 +15,7 @@ const Playground = () => {
                 
             </div>
         </div>
-        <div className="w3-row-padding w3-blue-grey w3-padding-64 w3-container">
+        <div className="w3-row-padding w3-light-blue w3-padding-64 w3-container">
             <div className="w3-content">
                 <p>Contoh dibawah adalah penggunaan grid-template dengan mendefinisikan ukuran dan area yang akan ditentukan. setiap div didalam container diberi style properti grid-area untuk mendefinisikan nama area</p>
                 <p>Edit contoh project dibawah untuk mencoba cara kerja grid-template</p>
